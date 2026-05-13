@@ -1,7 +1,7 @@
 /* ── Header Logo ───────────────────────────────────────── */
-.brand-icon {
-  width: 2rem;
-  height: 2rem;
+.header-brand .brand-icon {
+  width: 2rem !important;
+  height: 2rem !important;
   flex-shrink: 0;        /* prevents shrinking inside flex containers */
   color: #00a86b;        /* brand color for SVG stroke */
 }
