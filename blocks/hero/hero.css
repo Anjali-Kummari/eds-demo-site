@@ -29,7 +29,12 @@
   width: 100%;
   height: 100%;
 }
-
+.brand-icon {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;        /* prevents shrinking inside flex containers */
+  color: #00a86b;       
+}
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
